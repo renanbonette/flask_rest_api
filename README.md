@@ -11,8 +11,9 @@ Simples API Rest usando Python e framework Flask
 * ./app.py
 
 # Detalhes
-*CRUD usando os métodos HTTP GET/POST/PUT/DELETE de um data store de personagens(herois)
-*Recursos:
-*Autenticação
-*Rotas inexistentes
-*HTTP STATUS CODE
+* CRUD usando os métodos HTTP GET/POST/PUT/DELETE de um data store de personagens(herois)
+
+# Recursos:
+* Middleware de Autenticação
+* Middleware de  Rotas inexistentes
+* HTTP STATUS CODE
