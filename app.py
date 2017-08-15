@@ -99,12 +99,12 @@ def get_password(username):
         return 'python'
     return None
 
-#middleware para erro de acesso não autorizado
+#middleware para erro de acesso nao autorizado
 @auth.error_handler
 def unauthorized():
     return make_response(jsonify({'error': 'Unauthorized access'}), 401)
 
-#middleware para erro de rota não encontrada
+#middleware para erro de rota nao encontrada
 @app.errorhandler(404)
 def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
